@@ -24,7 +24,7 @@
 
     <div id="album-box">
     {{range .Album}}
-        <div class="album-item" style='background-image: url("{{.Filepath}}");'></div>
+        <div class="album-item" style='background-image: url("{{.Filepath}}"); background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;'></div>
     {{end}}
     </div>
 </div>
